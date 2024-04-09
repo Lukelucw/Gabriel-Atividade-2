@@ -1,0 +1,48 @@
+a{
+    width: 50px;
+    height: 20px;
+    background-color: bisque;
+    text-decoration: none;
+    color: brown;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+div{
+    height: 0px;
+    width: 0px;
+    background-color: yellow;
+    animation: mover 5s infinite;   
+  
+
+
+}
+
+body{
+  height: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+@keyframes mover{
+    
+    0%{
+        height: 0px;
+        width: 0px;
+    }
+    50%{
+        background-color: aqua;
+        height: 100px;
+        width: 100px;
+    }
+    100%{
+        background-color: blue;
+        height: 200px;
+        width: 200px;
+    }
+    
+}
+
+

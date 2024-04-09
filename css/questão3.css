@@ -1,0 +1,55 @@
+a{
+    width: 50px;
+    height: 20px;
+    background-color: bisque;
+    text-decoration: none;
+    color: brown;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.circulo{
+    
+
+    height: 200px;
+    width: 200px;
+    background-color: peru;
+    transition: 2ms;
+    border-radius: 90px;
+   
+    
+  
+    
+    
+
+}
+.circulo:hover{
+    animation: aumentar 2s ease infinite;
+
+}
+
+body{
+  height: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+
+
+
+@keyframes aumentar {
+
+    0%{
+        transform: scale(1);
+        background-color: peru
+        
+    }
+
+    100%{
+        transform: scale(2);   
+        background-color: blue 
+    }
+
+}

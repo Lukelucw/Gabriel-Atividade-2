@@ -1,0 +1,84 @@
+a{
+    width: 50px;
+    height: 20px;
+    background-color: bisque;
+    text-decoration: none;
+    color: brown;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+div {
+    height:200px;
+    width: 200px;
+    background-color: peru;
+    border-radius: 100px;
+    animation: pulse 4s  ease alternate;
+    
+  
+}
+
+body{
+     height: 750px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ 
+} 
+@keyframes pulse{
+
+    0%{
+       background-color: peru;
+        transform: scale(2);
+    }
+
+       
+
+    20%{
+        background-color: peru;
+       transform: scale(1);
+       
+    }
+       30%{
+        background-color: peru;
+        transform: scale(2);
+       
+       }
+
+       40%{
+        background-color: peru;
+         transform: scale(2);
+     }
+ 
+        
+ 
+     50%{
+         background-color: peru;
+        transform: scale(1);
+        
+     }
+    60%{
+         background-color: peru;
+         transform: scale(2);
+        
+        }
+        70%{
+            background-color: peru;
+             transform: scale(2);
+         }
+     
+            
+     
+         80%{
+             background-color: peru;
+            transform: scale(1);
+            
+         }
+            100%{
+             background-color: peru;
+             transform: scale(2);
+            
+            }
+
+
+}

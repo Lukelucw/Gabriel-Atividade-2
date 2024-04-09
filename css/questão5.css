@@ -1,0 +1,37 @@
+a{
+    width: 50px;
+    height: 20px;
+    background-color: bisque;
+    text-decoration: none;
+    color: brown;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+div{
+
+        height: 200px;
+        width: 200px;
+        background-color: peru;
+        animation: mover 3s infinite;
+       
+
+}
+
+body{
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+@keyframes mover {
+
+    50%{
+        background-color: blueviolet;
+        transform: rotate(45deg);
+ 
+    }
+}
+

@@ -1,0 +1,63 @@
+a{
+    width: 50px;
+    height: 20px;
+    background-color: bisque;
+    text-decoration: none;
+    color: brown;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+div{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    animation: quicar 5s  infinite;
+    position: relative;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+@keyframes quicar{
+    0%,100%{
+        left: 0;
+        bottom: 0;
+    }
+
+
+    25%{
+        left: 20%;
+        bottom: 38%;
+     
+
+
+    }
+    50%{
+        left: -20%;
+        bottom: -38%;
+        
+
+
+    }
+    75%{
+        height: -20%;
+        bottom: 38%;
+    
+        
+
+
+    }
+    90%{
+        left: -20%;
+        bottom: -35%;
+
+
+
+    }
+   
+}
